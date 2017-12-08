@@ -9,7 +9,7 @@ body {
 }
 
 #canvas {
-  background-image: url('../assets/maze.jpg');
+  background-image: url('../images/maze.jpg');
   background-size: cover;
 
   display: block;
@@ -41,7 +41,7 @@ body {
 }
 
 .life {
-  background: url('../assets/chompersprites.png');
+  background: url('../images/chompersprites.png');
   width: 27px;
   height: 27px;
   background-position: -354px -2px;
