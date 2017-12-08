@@ -3,8 +3,9 @@ body {
 }
 
 #canvas {
-  border: 1px solid black;
-
   background-image: url('./assets/maze.jpg');
   background-size: cover;
+
+  display: block;
+  margin: 100px auto;
 }
