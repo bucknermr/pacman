@@ -60,12 +60,20 @@ h1 {
   font-size: 48px;
 }
 
-#game-over {
+.in-game-header {
   display: none;
   position: absolute;
-  top: 360px;
-  left: 188px;
   color: #fff;
   font-size: 40px;
   font-family: 'Bungee', cursive;
+}
+
+#game-over {
+  top: 360px;
+  left: 188px;
+}
+
+#you-win {
+  top: 360px;
+  left: 188px;
 }
