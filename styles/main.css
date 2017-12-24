@@ -66,14 +66,16 @@ h1 {
   color: #fff;
   font-size: 40px;
   font-family: 'Bungee', cursive;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 #game-over {
   top: 360px;
-  left: 188px;
+  /* left: 188px; */
 }
 
 #you-win {
   top: 360px;
-  left: 188px;
+  /* left: 188px; */
 }
