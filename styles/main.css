@@ -31,7 +31,7 @@ body {
   left: 40px;
 }
 
-#lives {
+#lives-container {
   position: absolute;
   display: flex;
   justify-content: flex-start;
@@ -51,7 +51,6 @@ body {
 
 h1 {
   margin: 15px 0;
-  /*padding-bottom: 10px;*/
   letter-spacing: 12px;
   color: white;
   font-family: 'pacfontregular', cursive;
@@ -60,12 +59,26 @@ h1 {
   font-size: 48px;
 }
 
-#game-over {
+.in-game-text {
   display: none;
   position: absolute;
-  top: 360px;
-  left: 188px;
   color: #fff;
   font-size: 40px;
   font-family: 'Bungee', cursive;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+#game-over {
+  top: 360px;
+}
+
+#you-win {
+  top: 360px;
+}
+
+#new-game {
+  display: block;
+  top: 400px;
+  font-size: 28px;
 }
