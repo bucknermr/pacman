@@ -31,7 +31,7 @@ body {
   left: 40px;
 }
 
-#lives {
+#lives-container {
   position: absolute;
   display: flex;
   justify-content: flex-start;
@@ -60,7 +60,7 @@ h1 {
   font-size: 48px;
 }
 
-.in-game-header {
+.in-game-text {
   display: none;
   position: absolute;
   color: #fff;
@@ -78,4 +78,9 @@ h1 {
 #you-win {
   top: 360px;
   /* left: 188px; */
+}
+
+#new-game {
+  display: block;
+  top: 400px;
 }
