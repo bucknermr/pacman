@@ -51,7 +51,6 @@ body {
 
 h1 {
   margin: 15px 0;
-  /*padding-bottom: 10px;*/
   letter-spacing: 12px;
   color: white;
   font-family: 'pacfontregular', cursive;
@@ -72,15 +71,14 @@ h1 {
 
 #game-over {
   top: 360px;
-  /* left: 188px; */
 }
 
 #you-win {
   top: 360px;
-  /* left: 188px; */
 }
 
 #new-game {
   display: block;
   top: 400px;
+  font-size: 28px;
 }
