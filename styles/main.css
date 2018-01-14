@@ -3,7 +3,7 @@ body {
 }
 
 .game {
-  width: 616px;
+  width: 100vmin;
   margin: 0 auto;
   position: relative;
 }
@@ -12,6 +12,8 @@ body {
   background-image: url('../images/maze.jpg');
   background-size: cover;
 
+  margin: 0 auto;
+  width: 77%;
   display: block;
 }
 
@@ -24,29 +26,29 @@ body {
 }
 
 #score {
-  position: absolute;
-  font-family: 'Bungee', cursive;
-  color: #fff;
-  font-size: 36px;
-  left: 40px;
+  display: block;
+  font-size: 5vmin;
+  left: 12%;
 }
 
 #lives-container {
   position: absolute;
   display: flex;
   justify-content: flex-start;
-  right: 0px;
+  /* right: 0px; */
+  left: 70vmin;
   width: 400px;
   height: 100%;
 }
 
 .life {
   background: url('../images/chompersprites.png');
-  width: 27px;
-  height: 27px;
-  background-position: -354px -2px;
+  width: 4.3vmin;
+  height: 4.3vmin;
+  background-position: -45vmin 0;
   background-repeat: no-repeat;
   margin-right: 20px;
+  background-size: 58vmin;
 }
 
 h1 {
@@ -56,29 +58,28 @@ h1 {
   font-family: 'pacfontregular', cursive;
   color: yellow;
   text-align: center;
-  font-size: 48px;
+  font-size: 6vmin;
 }
 
 .in-game-text {
   display: none;
   position: absolute;
   color: #fff;
-  font-size: 40px;
   font-family: 'Bungee', cursive;
-  left: 50%;
-  transform: translateX(-50%);
 }
 
-#game-over {
-  top: 360px;
+#game-over, #you-win {
+  bottom: 40%;
+  font-size: 6vmin;
 }
 
-#you-win {
-  top: 360px;
+#game-over, #you-win, #new-game {
+  width: 100%;
+  text-align: center;
 }
 
 #new-game {
   display: block;
-  top: 400px;
-  font-size: 28px;
+  bottom: 35%;
+  font-size: 3.6vmin;
 }
