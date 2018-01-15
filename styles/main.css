@@ -35,7 +35,6 @@ body {
   position: absolute;
   display: flex;
   justify-content: flex-start;
-  /* right: 0px; */
   left: 70vmin;
   width: 400px;
   height: 100%;
@@ -45,10 +44,10 @@ body {
   background: url('../images/chompersprites.png');
   width: 4.3vmin;
   height: 4.3vmin;
-  background-position: -45vmin 0;
+  background-position: -54.4vmin -0.3vmin;
   background-repeat: no-repeat;
   margin-right: 20px;
-  background-size: 58vmin;
+  background-size: 69vmin;
 }
 
 h1 {
