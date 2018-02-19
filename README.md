@@ -4,6 +4,8 @@
 
 This project is a tribute to the 1980's classic arcade game. Pacman maneuvers around the screen eating dots, while avoiding the ghosts who are chasing him.
 
+[See it live!](https://bucknermr.github.io/pacman/)
+
 ### Features & MVP's
 
 * User controls pacman with the keyboard
