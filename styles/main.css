@@ -61,13 +61,13 @@ h1 {
 }
 
 .in-game-text {
-  display: none;
   position: absolute;
   color: #fff;
   font-family: 'Bungee', cursive;
 }
 
 #game-over, #you-win {
+  display: none;
   bottom: 40%;
   font-size: 6vmin;
 }
